@@ -1,0 +1,25 @@
+# User story 1: As a user I want to see available dentists in Gothenburg on the map, so that I don't have to search extensively on the web.
+
+Acceptance Criteria:
+Given that the user is on the homepage of the system
+When the user enters nothing in the homepage, all the dentists will be retrieved from the system and can be viewed by them with the office locations displayed as pins on the map.
+
+
+# User story 8: As a user I want to be able to see the available appointments of a selected clinic, so that I can pick my preferred appointment.Acceptance criteria:
+
+Acceptance criteria:
+Given that the user has navigated to the main page and they have selected one dentist from the map, all available timeslots should be made visible on a list view.
+
+
+# User story 3: As a user I want to be able to book an appointment at a specific clinic, date and time slot so that I can get the appointment I would most prefer
+
+Acceptance Criteria:
+Given that the user has selected the dentist and the time slot they prefer. Once the user clicks the "Book appointment" button, they should be prompted to fill in their email and First and Last name in order to place a booking. Once they press Place Booking, a new appointment is then booked for them and a confirmation message with the time slot, dentist name and address is displayed.
+
+
+# User story 10: As a user I want to be able to get notified if the time slot I tried to book is not available anymore, so that I can then try to book another one selecting a different time slot.
+
+Acceptance Criteria: 
+Given that the user has navigated to the appointments page and selected a clinic and appointment-  when the user wants to book concurrently with another user, the system should not allow it if the time slot has already been booked before.
+System should revert and go back to selecting a different time slot.
+
